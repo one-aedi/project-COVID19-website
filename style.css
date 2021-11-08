@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    ffont-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+#header{
+    height: 100vh;
+    background-image: 
+    url(/images/starter.jpg);
+    background-position: right;
+    background-size: 60%;
+    background-repeat: no-repeat;
+      
+}
+
+
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.header-text1{
+    max-width: 550px;
+    margin-top: 150px;
+}
+
+.header-text2{
+    max-width: 450px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+p{
+    line-height: 25px;
+    color: #777;
+}
+.line{
+    width: 450px;
+    height: 1px;
+    display: inline-block;
+    background: #2f383f;
+    margin-top: 30px;
+}
+
+.first__btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fa8e82;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.header-text2 button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#links{
+    width: 250px;
+    height: 55vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #fa8e82;
+    z-index: 2;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    transition: .5s;
+    
+
+}
+nav ul li:first-child{
+    list-style: none;
+    margin: 50px 20px;
+    margin-top: 150px;
+    
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+    text-align: center;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#menu__btn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
