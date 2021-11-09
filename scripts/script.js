@@ -19,8 +19,17 @@ var logo    = $(".logo")
 var text2   = $(".header-text2");
 var button1 = $(".first__btn")
 
-    header.delay(1000).hide().show("fade", 2000),
-    logo.delay(1000).hide().show("fade", 2000),
-    text2.hide(2000).delay(1000).show("fade", 2500);
-    button1.hide(2000).delay(2000).show("fade", 2500);
+header.delay(1000).hide().show("fade", 2000),
+logo.delay(1000).hide().show("fade", 2000),
+text2.hide(1500).delay(1000).show("fade", 2000);
+button1.hide(2000).delay(2000).show("fade", 1000);
 
+
+/*page preLoader*/
+
+    const preloader = document.querySelector(".preloader");
+    const bodyLoaded = () => {
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 1000);
+    };
