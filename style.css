@@ -58,7 +58,18 @@ h1{
 p{
     line-height: 25px;
     color: #777;
+    text-align: justify;
 }
+
+ .p2{
+    line-height: 25px;
+    font-size: 16px;
+    color: #777;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+
 .line{
     width: 450px;
     height: 1px;
@@ -131,7 +142,7 @@ nav ul li a:hover{
 
 #menu__btn{
     width: 50px;
-    position: fixed;
+    position: absolute;
     right: 65px;
     top: 65px;
     z-index: 2;
@@ -198,3 +209,38 @@ nav ul li a:hover{
 .description{
     text-align: justify;
 }
+
+#con-exm{
+    padding-top: 10px;
+    padding-bottom: 50%;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.feature-col{
+    flex-basis: 45%;
+    text-align: center;
+    margin-top: -250px;
+    max-width: 350px;
+}
+
+.feature-col:last-child{
+    flex-basis: 45%;
+    text-align: center;
+    margin-top: -230px;
+    max-width: 350px;
+}
+
+.feature-col img{
+    width: 50%;
+}
+
+
