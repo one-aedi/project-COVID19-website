@@ -59,6 +59,7 @@ p{
     line-height: 25px;
     color: #777;
     text-align: justify;
+    margin-top: 20px;
 }
 
  .p2{
@@ -149,7 +150,7 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-/*about corona*/
+/*about corona*******************************************************************/
 #about__corona{
     padding: 100px 0;
     display: flex;
@@ -191,14 +192,14 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 
-/* contagion*/
+/* contagion******************************************************************/
 
 .contagion{
     width: 800px;
     height: 500px;
     align-items: center;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .title{
@@ -243,4 +244,149 @@ nav ul li a:hover{
     width: 50%;
 }
 
+/*Protection*******************************************************/
 
+.protection{
+    width: 800px;
+    height: 150px;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.title-p{
+    text-align: center;
+    padding: 20px;
+}
+
+.description-p{
+    text-align: justify;
+}
+
+/********************************/
+
+    #about__mask{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;  
+    }
+    .mask__left{
+        flex-basis: 50%;
+    
+    }
+    
+    .mask__left img{
+        width: 40%;
+        margin-left: 500px;
+    }
+    
+    .mask__right{
+        flex-basis: 50%;    
+        text-align: justify;    
+    }
+/********************************/
+    #about__hands{
+        padding: 50px 0;
+        display: flex;
+        align-items: center;  
+        }
+        .hands__left{
+            flex-basis: 50%;
+        
+        }
+        
+        .hands__right img{
+            width: 40%;
+            margin-right: 500px;
+        }
+        
+        .hands__right{
+            flex-basis: 50%;    
+            text-align: justify;    
+        }
+        .about__hands{
+            max-width: 500px;
+            margin-left: 300px;
+            display: inline-block;
+            
+        }
+/********************************/
+#about__contact{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;  
+    }
+    .contact__left{
+        flex-basis: 50%;
+    
+    }
+    
+    .contact__left img{
+        width: 50%;
+        margin-left: 390px;
+    }
+    
+    .contact__right{
+        flex-basis: 50%;    
+        text-align: justify;    
+    }
+
+/********************************/
+
+#about__vacc{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;  
+    }
+    .vacc__left{
+        flex-basis: 50%;
+    
+    }
+    
+    .vacc__right img{
+        width: 60%;
+        margin-right: 500px;
+    }
+    
+    .vacc__right{
+        flex-basis: 50%;    
+        text-align: justify;    
+    }
+    .about__vacc{
+        max-width: 500px;
+        margin-left: 300px;
+        display: inline-block;
+        
+    }
+
+    /*SYMPTONS********************************/
+.symptons_col img{
+    width: 100%;
+
+}
+
+/*FOOTER*************************************/
+ #footer{
+     padding: 50px 0 30px;
+ }
+
+ hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col{
+    flex-basis: 50%;
+}
+
+.footer-right-col{
+    flex-basis: 35%;
+}

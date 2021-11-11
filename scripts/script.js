@@ -12,7 +12,7 @@ menu__btn.onclick = function(){
     }
 }
 
-/*animation of header elements*/
+/*animation of header elements*//
 
 var header  = $("#header, #menu__btn")
 var logo    = $(".logo")
