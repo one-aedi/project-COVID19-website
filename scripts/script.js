@@ -12,7 +12,7 @@ menu__btn.onclick = function(){
     }
 }
 
-/*animation of header elements*//
+/*animation of header elements*/
 
 var header  = $("#header, #menu__btn")
 var logo    = $(".logo")
@@ -26,10 +26,3 @@ button1.hide(2000).delay(2000).show("fade", 1000);
 
 
 /*page preLoader*/
-
-    const preloader = document.querySelector(".preloader");
-    const bodyLoaded = () => {
-      setTimeout(() => {
-        preloader.style.display = "none";
-      }, 1000);
-    };

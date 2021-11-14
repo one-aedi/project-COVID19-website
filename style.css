@@ -15,20 +15,6 @@
       
 }
 
-.preloader {
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(/images/gear.gif);
-    background-size: 10em;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: fixed;
-    background: #fff;
-    z-index: 5;
-}
-
-
 .container{
     margin-right: 100px;
     margin-left: 100px;
@@ -92,6 +78,7 @@ p{
 .header-text2 button{
     margin-top: 20px;
     margin-bottom: 60px;
+    
 }
 
 #links{
@@ -105,25 +92,19 @@ p{
     margin-top: 20px;
     border-radius: 10px 10px 10px 10px;
     transition: .5s;
-    
-    
-    
-
 }
+
 nav ul li:first-child{
     list-style: none;
     margin: 50px 20px;
     margin-top: 150px;
-    
-    
-    
+
 }
 nav ul li{
     list-style: none;
     margin: 50px 20px;
     text-align: center;
-    
-    
+  
 }
 
 nav ul li a{
@@ -155,6 +136,7 @@ nav ul li a:hover{
     padding: 100px 0;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -360,10 +342,29 @@ nav ul li a:hover{
     }
 
     /*SYMPTONS********************************/
-.symptons_col img{
-    width: 100%;
+    .symptons{
+        width: 800px;
+        height: 150px;
+        align-items: center;
+        margin: auto;
+        margin-top: 100px;
+        
+    }
+    
+    .title-s{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .symptons-p{
+        text-align: justify;
+    }
+    
+   .symptons_col img{
+    width: 80%;
+    
 
-}
+    }
 
 /*FOOTER*************************************/
  #footer{
@@ -373,7 +374,8 @@ nav ul li a:hover{
  hr{
     width: 100%;
     border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid #777;
+    margin-top: 700px;
 }
 
 .footer-row{
@@ -385,8 +387,294 @@ nav ul li a:hover{
 
 .footer-left-col{
     flex-basis: 50%;
+    margin-top: 50px;
 }
 
 .footer-right-col{
     flex-basis: 35%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    margin-bottom: 20px;
+    color:#fa8e82;
+}
+
+.link-title small{
+    cursor: pointer;
+}
+
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+
+.footer-logo img{
+    width: 30%;
+    transform: rotate(-90deg);
+    z-index: 10;
+    margin-top: -35px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+}
+
+.copyright-text, .footer-logo{
+flex-basis: 40%;
+
+
+
+}
+.second__btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fa8e82;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/*social icons***************************************/
+
+.social-icons{
+    width: 60px;
+    height: 135px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 0;
+    border-right: solid 1px #777;
+    
+}
+
+.social-icons img{  
+    width: 30px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+
+/*media queries****************************************/
+
+@media only screen and (max-width: 770px){
+    #header{
+        background-image: none;
+    }
+
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .logo{
+        margin-top: 40px;
+        width: 100px;
+        
+    }
+    
+    .header-text1{
+
+        margin-top: 75px;
+    }
+    
+    .header-text2{
+        width: 250px;
+        margin: 50px 0;
+        margin-top: 10px;  
+    }
+
+    
+    h1{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    p{
+        line-height: 25px;
+        color: #777;
+        margin-top: 20px;
+        font-size: 15px;
+        
+    }
+    .first__btn{
+        padding: 10px 16px;
+       
+    }
+
+    #menu__btn{
+        width: 40px;
+        right: 50px;
+      
+    }
+    .social-icons img{  
+        width: 15px;
+        display: block;
+        margin: 0 auto 20px;
+        
+       
+    }
+    .social-icons{
+    border: none;
+    display: none;
+    }
+   /****************************************/
+   .about__left,.about__right{
+    flex-basis: 100%;
+    }
+    .about__text1{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about__text1 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about__text1 p{
+        font-size: 15px;
+    }
+    .about__left img{
+        width: 50%;
+        margin-left: 110px;
+    }
+
+    .second__btn{
+        padding: 10px 16px;
+        
+    }
+    /************************************************/
+    .contagion{
+        width: 250px;
+        height: 500px;
+        align-items: center;
+        margin: 50px 50px 0;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /**********************************/
+    #con-exm{
+        padding-top: 20px;
+        padding-bottom: 50%;
+    }
+
+    .feature-row{
+        width: 250px;
+        margin: 50px 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+
+
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+
+    .feature-col:last-child{
+        flex-basis: 100%;
+        margin-top: 50px;
+
+    }
+    
+    .p2{
+        line-height: 25px;
+        font-size: 15px;
+        color: #777;
+        text-align: justify;
+        margin-top: 30px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+    
+    /*************************************************/
+    .protection{
+        width: 250px;
+        height: 150px;
+        align-items: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .title-p{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .mask__right{
+        flex-basis: 100%; 
+        display: flex;   
+    }
+    .mask__left{
+        flex-basis: 100%; 
+
+    }
+    .mask__left img {
+        width: 40%;
+        margin-left: 110px;
+        margin-top: 20px;
+    
+    }
+
+    .title-p{
+        font-size: 20px;
+    }
+
+    #about__mask{
+        flex-wrap: wrap;
+        
+    }
+
+   /*********************************************/
+    .hands__left{
+        flex-basis: 100%; 
+        display: flex;   
+        
+    }
+
+    .hands__right{
+        flex-basis: 100%;
+        
+    }
+
+    .about__hands{
+        margin:50px 50px 0;
+        margin-top: -29px;
+
+    }
+
+    #about__hands{
+        flex-wrap: wrap;
+    }
+    .hands__right img{
+        margin-left: 50px;
+    }
+
+
+    
+    
+
+    
+
+
+
 }
