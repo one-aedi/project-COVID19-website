@@ -25,4 +25,8 @@ text2.hide(1500).delay(1000).show("fade", 2000);
 button1.hide(2000).delay(2000).show("fade", 1000);
 
 
-/*page preLoader*/
+/*smooth scroll*/
+var scroll = new SmoothScroll('a[href*="#"]',{
+    speed:1000,
+    speedAsDuration: true,
+});

@@ -83,14 +83,13 @@ p{
 
 #links{
     width: 250px;
-    height: 55vh;
+    height: 85vh;
     position: fixed;
     right: -250px;
     top: 0;
     background: #fa8e82;
     z-index: 2;
     margin-top: 20px;
-    border-radius: 10px 10px 10px 10px;
     transition: .5s;
 }
 
@@ -124,7 +123,7 @@ nav ul li a:hover{
 
 #menu__btn{
     width: 50px;
-    position: absolute;
+    position: fixed;
     right: 65px;
     top: 65px;
     z-index: 2;
@@ -313,9 +312,16 @@ nav ul li a:hover{
         text-align: justify;    
     }
 
+    .about__text-con{
+        max-width: 500px;
+        margin-right: 100px;
+        display: inline-block;
+        
+    }
+
 /********************************/
 
-#about__vacc{
+    #about__vacc{
     padding: 50px 0;
     display: flex;
     align-items: center;  
@@ -516,6 +522,8 @@ flex-basis: 40%;
     #menu__btn{
         width: 40px;
         right: 50px;
+        margin-right: 520px;
+        
       
     }
     .social-icons img{  
@@ -629,8 +637,8 @@ flex-basis: 40%;
 
     }
     .mask__left img {
-        width: 40%;
-        margin-left: 110px;
+        width: 55%;
+        margin-left: 100px;
         margin-top: 20px;
     
     }
@@ -640,7 +648,7 @@ flex-basis: 40%;
     }
 
     #about__mask{
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         
     }
 
@@ -664,15 +672,125 @@ flex-basis: 40%;
 
     #about__hands{
         flex-wrap: wrap;
+        padding: 0;
     }
     .hands__right img{
-        margin-left: 50px;
+        margin-left: 60px;
+        
     }
 
-
+/************************************/
+    #about__contact{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap-reverse;
+   
+    }
+    .contact__left{
+        flex-basis: 100%;
+        display: flex;
     
+    }
     
+    .contact__left img{
+        width: 80%;
+        margin-left: 55px;
+       
+    }
+    
+    .contact__right{
+        flex-basis: 100%;    
+        text-align: justify;    
+        margin: 50px 50px 0;
+    }
 
+    .about__text-con{
+        margin: 0;
+        
+    }
+    /***********************************/
+    #about__vacc{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+          
+        }
+        .vacc__left{
+            flex-basis: 100%;
+        
+        }
+        
+        .vacc__right img{
+            width: 60%;
+            margin-left: 48px;
+            
+        }
+        
+        .vacc__right{
+            flex-basis: 100%;    
+            text-align: justify;    
+        }
+        .about__vacc{
+            margin: 50px 50px 0;
+            display: inline-block;
+            
+        }
+        /******************************************/
+        .symptons{
+            width: 250px;
+            align-items: center;
+            margin: 50px 50px 0;
+            margin-top: 0;
+            
+        }
+        
+        .title-s{
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .symptons-p{
+            text-align: justify;
+        }
+        
+       .symptons_col img{
+        width: 80%;
+        
+    
+        }
+    /**********************************/
+    .footer-left-col, .footer-left-col {
+        flex-basis: 100%;
+        
+    }
+
+    .link-title {
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-logo img{
+       display: none;
+    }
+    
+    .footer-info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+         
+        
+    }
+    #links{
+        width: 250px;
+        height: 85vh;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        background: #fa8e82;
+        z-index: 2;
+        margin-top: 20px;
+        
+        transition: .5s;
+    }
     
 
 
